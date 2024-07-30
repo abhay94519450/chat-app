@@ -21,15 +21,15 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 import avatarPic from './Images/avatar.svg';
 
-const firebaseConfig = { 
-  apiKey: "AIzaSyDNehgrb16DsamnzAn6WSnGikcOFVD7DEI" ,
-  authDomain: "portfoliooi.firebaseapp.com" ,
-  projectId: "portfoliooi",
-  storageBucket: "portfoliooi.appspot.com",
-  messagingSenderId: "1035366543159",
-  appId: "1:1035366543159:web:0038b1fc2d15a1e1e3b4b2",
-  measurementId: "G-SZS3RQ6RJH"
+const firebaseConfig = {
+  apiKey: 'AIzaSyDNehgrb16DsamnzAn6WSnGikcOFVD7DEI',
+  authDomain: 'portfoliooi.firebaseapp.com',
+  projectId: 'portfoliooi',
+  storageBucket: 'portfoliooi.appspot.com',
+  messagingSenderId: '1035366543159',
+  appId: '1:1035366543159:web:0038b1fc2d15a1e1e3b4b2',
 };
+
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 
