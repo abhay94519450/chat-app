@@ -21,8 +21,8 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 import avatarPic from './Images/avatar.svg';
 
-const firebaseConfig = {
-  apiKey: 'AIzaSyAy7_gV6P_nhrFG-iyapiKey: "AIzaSyDNehgrb16DsamnzAn6WSnGikcOFVD7DEI",
+const firebaseConfig = { 
+  apiKey: "AIzaSyDNehgrb16DsamnzAn6WSnGikcOFVD7DEI" ,
   authDomain: "portfoliooi.firebaseapp.com" ,
   projectId: "portfoliooi",
   storageBucket: "portfoliooi.appspot.com",
