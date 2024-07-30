@@ -22,14 +22,15 @@ import { useCollectionData } from 'react-firebase-hooks/firestore';
 import avatarPic from './Images/avatar.svg';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyAy7_gV6P_nhrFG-iyT-FQzt_VloyIEkYA',
-  authDomain: 'chat-app-d85d5.firebaseapp.com',
-  projectId: 'chat-app-d85d5',
-  storageBucket: 'chat-app-d85d5.appspot.com',
-  messagingSenderId: '867244762012',
-  appId: '1:867244762012:web:0e5aea6e3bac60b5b61e59',
+  apiKey: 'AIzaSyAy7_gV6P_nhrFG-iyapiKey: "AIzaSyDNehgrb16DsamnzAn6WSnGikcOFVD7DEI",
+  authDomain: "portfoliooi.firebaseapp.com",
+  databaseURL: "https://portfoliooi-default-rtdb.firebaseio.com",
+  projectId: "portfoliooi",
+  storageBucket: "portfoliooi.appspot.com",
+  messagingSenderId: "1035366543159",
+  appId: "1:1035366543159:web:0038b1fc2d15a1e1e3b4b2",
+  measurementId: "G-SZS3RQ6RJH"
 };
-
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 
