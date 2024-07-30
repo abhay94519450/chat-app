@@ -23,8 +23,7 @@ import avatarPic from './Images/avatar.svg';
 
 const firebaseConfig = {
   apiKey: 'AIzaSyAy7_gV6P_nhrFG-iyapiKey: "AIzaSyDNehgrb16DsamnzAn6WSnGikcOFVD7DEI",
-  authDomain: "portfoliooi.firebaseapp.com",
-  databaseURL: "https://portfoliooi-default-rtdb.firebaseio.com",
+  authDomain: "portfoliooi.firebaseapp.com" ,
   projectId: "portfoliooi",
   storageBucket: "portfoliooi.appspot.com",
   messagingSenderId: "1035366543159",
